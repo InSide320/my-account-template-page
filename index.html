@@ -1,14 +1,313 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>my-account</title>
+    <link rel="stylesheet" href="./assets/style/style.css"/>
 </head>
 <body>
-<table>
-    <tbody>
+<div class="wrapper">
+    <header>
+        <div class="wrap-header">
+            <nav>
+                <div class="burger-menu">
+                    <input id="menu-toggle" type="checkbox"/>
+                    <label class='menu-button-container' for="menu-toggle">
+                        <span class='menu-button'></span>
+                    </label>
+                    <ul class="menu left-bar">
+                        <li>
+                            <div class="left_r">Категорії сайта</div>
+                        </li>
+                        <li><a class="left_l" href="#">Дописи в блогах</a>
+                        </li>
+                        <li><a class="left_l" href="#">VIP статус</a>
+                        </li>
+                        <li><a class="left_l" href="#">Знайомства</a>
+                        </li>
+                        <li><a class="left_l" href="#">Додадткові послуги</a>
+                        </li>
+                        <li><a class="left_l" href="#">користувачі</a>
+                        </li>
+                        <li>
+                            <div class="left_r">Налаштування</div>
+                        </li>
+                        <li><a class="left_l" href="#">Админ-панель</a>
+                        </li>
+                        <li><a class="left_l" href="#">Налаштування</a>
+                        </li>
+                        <li><a class="left_l" href="#">Допомога</a>
+                        </li>
+                        <li><a class="left_l" href="#">Вихід</a>
+                        </li>
+                    </ul>
+                </div>
+                <div><a class="head-logo" href="#">LOGO</a>
+                </div>
+            </nav>
+            <div class="notifications">
+                <div><a href="#" title="Повідомлення"><img src="./assets/img/free-icon-bell-10646468.png"
+                                                           alt="Новини"></a></div>
+                <div><a href="#" title="Лист"><img src="./assets/img/free-icon-envelope-2168904.png"
+                                                   alt="Повідомлення"></a></div>
+            </div>
+        </div>
+    </header>
+    <div class="wrap-content">
+        <div class="content">
+            <div class="main-information--profile">
+                <div>
+                    <div class="user__main-head-information">
+                        <div class="user__wrap-head">
+                            <img src="./assets/img/avavtar.png" alt="Avatar">
+                            <div class="user__online-status">В мережі</div>
+                        </div>
+                        <div class="user__info">
+                            <div class="user__wrap-main-info">
+                                <div class="user__nickname">Elena</div>
+                                <div class="user__wrap-present">
+                                    <div class="user__present">
+                                        <img src="./assets/img/free-icon-giftbox-1140033.png" alt="Подарунок">
+                                        <img src="./assets/img/free-icon-giftbox-1140033.png" alt="Подарунок">
+                                        <img src="./assets/img/free-icon-giftbox-1140033.png" alt="Подарунок">
+                                    </div>
+                                    <div class="user__action-go-to-presents">
+                                        <a href="#">
+                                            <span class="action-go-to-gifts"></span>
+                                        </a>
+                                    </div>
+                                </div>
 
-    </tbody>
-</table>
+                            </div>
+                            <div class="user__online">Останній візит: вчора в
+                                <time datetime="2024-02-19 21:35">21:35</time>
+                            </div>
+                            <div class="user__wrap-action">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <div class="user__action">
+                                                <span class="cycle"></span>
+                                            </div>
+                                        </a>
+                                        <div class="user__action-description user__action-add-friend">Додати<br>в друзі
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="user__action"><img
+                                                    src="./assets/img/free-icon-envelope-526901.png"
+                                                    alt="Надіслати повідомлення"></div>
+                                        </a>
+                                        <div class="user__action-description">Написати<br>повідомлення</div>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="user__action"><img
+                                                    src="./assets/img/free-icon-gift-1405291.png"
+                                                    alt="Зробити подарунок"></div>
+                                        </a>
+                                        <div class="user__action-description">Зробити<br>подарунок</div>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="user__action"><span class="other-action"></span></div>
+                                        </a>
+                                        <div class="user__action-description">Інші<br>дії</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__wrap-status">
+                        <div class="user__status">
+                            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</span>
+                            <a href="#"><img src="./assets/img/free-icon-write-4153950.png" alt="Змінити статус"></a>
+                        </div>
+                        <div class="user__wrap-detail-status">
+                            <div class="user__status-left-block">
+
+                                <a>
+                                    <img src="./assets/img/free-icon-thumb-up-like-13578170.png" alt="Лайки">
+                                    <div class="user__status-left-description-title">0 людей</div>
+                                </a>
+                                <a><img src="./assets/img/free-icon-bullhorn-554761.png" alt="Всі статуси">
+                                    <div>Всі статуси<span class="user__status-left-description">1</span></div>
+                                </a>
+                            </div>
+                            <div class="user__status-right-block">
+                                <a>
+                                    <img src="./assets/img/free-icon-comment-2417840.png" alt="Коментарі">
+                                    <span class="user__status-left-description">0</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="short-about--profile">
+                <div>
+                    <img src="./assets/img/free-icon-calendar-606782.png" alt="Народження">
+                    <p><span>Народився(-лась):</span>15 червня, 22 роки</p>
+                </div>
+                <div>
+                    <img src="./assets/img/free-icon-home-1946488.png" alt="Місто">
+                    <p><span>Місто:</span>Київ</p>
+                </div>
+                <div>
+                    <img src="./assets/img/free-icon-file-2745398.png" alt="Про себе">
+                    <p><span>Про себе:</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+                </div>
+            </div>
+            <div class="action-plates--profile">
+                <div>
+                    <div class="plate"><img src="./assets/img/free-icon-vip-7529732.png" alt="VIP"/>
+                        <a href="#" class="left_l link-button"><strong>Підключити VIP</strong></a></div>
+                </div>
+                <div>
+                    <div class="plate"><img src="./assets/img/free-icon-vip-7529732.png" alt="VIP"/><a
+                            href="#" class="left_l link-button"><strong>Підключити VIP</strong></a></div>
+                </div>
+                <div>
+                    <div class="plate"><img src="./assets/img/free-icon-vip-7529732.png" alt="VIP"/><a
+                            href="#" class="left_l link-button"><strong>Підключити VIP</strong></a></div>
+                </div>
+            </div>
+            <div class="my-note--profile">
+                <div>
+                    <a href="#" class="link"><img src="./assets/img/free-icon-user-profile-2734847.png" alt="Анкета">
+                        Анкета<span>&gt;</span></a>
+                </div>
+                <div>
+                    <a href="#" class="link"><img src="./assets/img/free-icon-sticky-note-3934366.png" alt="Щоденник">
+                        Щоденники
+                        <div class="wrap-word">0</div>
+                        <span>&gt;</span></a>
+                </div>
+                <div>
+                    <a href="#" class="link"><img src="./assets/img/free-icon-music-note-1263382.png" alt="Музика">
+                        Музика
+                        <div class="wrap-word">0</div>
+                        <span>&gt;</span></a>
+                </div>
+
+            </div>
+            <div class="picture-present--profile">
+                <div class="wrap-picture-block">
+                    <div class="inf-picture">
+                        <img src="./assets/img/free-icon-gallery-964016.png" alt="Усі фото">
+                        <span>Фото</span>
+                        <div class="decoration-item"></div>
+                        <a href="#">Усі фото <span>&gt;&gt;</span></a>
+                    </div>
+                    <div class="wrap-photo">
+                        <div class="picture"><img src="./assets/img/avavtar.png" alt="Фото"></div>
+                        <div class="picture"><img src="./assets/img/avavtar.png" alt="Фото"></div>
+                        <div class="picture"><img src="./assets/img/avavtar.png" alt="Фото"></div>
+                        <div class="picture"><img src="./assets/img/avavtar.png" alt="Фото"></div>
+                    </div>
+
+                </div>
+                <div class="wrap-picture-block">
+                    <div class="inf-picture">
+                        <img src="./assets/img/free-icon-gift-1405291.png" alt="Подарунки">
+                        <span>Подарунки</span>
+                        <div class="decoration-item"></div>
+                        <a href="#">Усі подарунки <span>&gt;&gt;</span></a>
+                    </div>
+                    <div class="wrap-present">
+                        <div class="picture"><img src="./assets/img/free-icon-giftbox-1140033.png" alt="Подарунок">
+                        </div>
+                        <div class="picture"><img src="./assets/img/free-icon-giftbox-1140033.png" alt="Подарунок">
+                        </div>
+                        <div class="picture"><img src="./assets/img/free-icon-giftbox-1140033.png" alt="Подарунок">
+                        </div>
+                        <div class="picture"><img src="./assets/img/free-icon-giftbox-1140033.png" alt="Подарунок">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="info-categories-about-myself">
+                <div class="myself__left-tab">
+                    <div class="tabs__items" aria-label="Close">
+                        <a href="#" class="tabs__item">Про себе</a>
+                        <a href="#" class="tabs__item">Шкідливі звички</a>
+                        <a href="#" class="tabs__item">Здоров'я</a>
+                        <a href="#" class="tabs__item">Хоббі</a>
+                    </div>
+                </div>
+                <div class="myself__right-tab">
+                    <div class="tabs__items" aria-label="Close">
+                        <a href="#" class="tabs__item">Зовнішність</a>
+                        <a href="#" class="tabs__item">Критерії пошуку</a>
+                        <a href="#" class="tabs__item">Релігія</a>
+                        <a href="#" class="tabs__item">Інше</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-interest--profile">
+                <div class="tab__body">
+                    <ul>
+                        <li>
+                            <p class="info-item__title">Ім'я:</p>
+                            <p class="info-item__descr">Маша</p>
+                        </li>
+                        <li>
+                            <p class="info-item__title">Стать:</p>
+                            <p class="info-item__descr">Жіночий</p>
+                        </li>
+                        <li><p class="info-item__title">Дата народження:</p>
+                            <p class="info-item__descr"> 21.04.1999</p>
+                        </li>
+                        <li><p class="info-item__title">Сімейне становище:</p>
+                            <p class="info-item__descr">Все важко</p>
+                        </li>
+                        <li><p class="info-item__title">Рідне місто:</p>
+                            <a href="#" class="link"><p class="info-item__descr">Україна, Львів</p></a>
+                        </li>
+                        <li><p class="info-item__title">Місце проживання:</p>
+                            <a href="#" class="link"><p class="info-item__descr">loper ipsumloper ipsumloper
+                                ipsumloper
+                                ipsumloper ipsumloper
+                                ipsumloper ipsumloper ipsum</p></a>
+                        </li>
+                        <li><p class="info-item__title">Модель телефону:</p>
+                            <a href="#" class="link"><p class="info-item__descr">loper ipsumloper ipsumloper
+                                ipsumloper
+                                ipsumloper ipsumloper
+                                ipsumloper ipsumloper ipsum</p></a>
+                        </li>
+                        <li><p class="info-item__title">Рід зайнятості:</p>
+                            <p class="info-item__descr">loper ipsumloper ipsumloper ipsumloper ipsumloper ipsum</p>
+                        </li>
+                        <li><p class="info-item__title">Професія:</p>
+                            <p class="info-item__descr">loper ipsumloper ipsumloper ipsumloper ipsumloper ipsum</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contact-us">
+            <a href="#">Про сайт </a> - <a href="#">Допомога</a> - <a href="#">Адміністрація</a>
+        </div>
+        <div class="footer__wrap">
+            <div><span>&copy;</span><a href="#">site.com 2024</a></div>
+            <div class="social-medias">
+                <a href="#"><img src="./assets/img/free-icon-facebook-733547.png" alt="Facebook"></a>
+                <a href="#"><img src="./assets/img/free-icon-telegram-logo-87413.png" alt="Telegram"></a>
+                <a href="#"><img src="./assets/img/free-icon-instagram-174855.png" alt="Instagram"></a>
+                <a href="#"><img src="./assets/img/free-icon-viber-2111705.png" alt="Viber"></a>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
